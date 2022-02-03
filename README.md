@@ -14,5 +14,7 @@ Additionaly, Landuse Landcover dataset can be used to distingush between the cro
  
 The R-codes can be used to perform Exploratory Data Anlaysis to support policy makers in identifiying the overall yearly trend, peak burning periods, Fire hotposots for timely interventions to curb the event.
 
-## Graphical Abstract of the overall study
-[Raw Data](https://user-images.githubusercontent.com/83420459/152357496-f96a84bd-3213-4fb2-b935-b6a1f5a631f6.png)
+## Graphical Abstract summarising the analysis
+
+
+![Raw Data](https://user-images.githubusercontent.com/83420459/152357591-5f7b04e2-880e-42e2-afbd-dffe3aa7ff5d.png)
