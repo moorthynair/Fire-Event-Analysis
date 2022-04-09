@@ -21,7 +21,7 @@ modis_fire = gpd.read_file(r'C:/Users/HP/Desktop/AOD-PM2.5/Fire_data/Fire_data/f
 ##Overlay both the shapefiles retreivng all the original polygons 
 data_overlay = gpd.sjoin(modis_fire, shapefile, how='left', op='intersects')
 
-##Overlay both the shapes (Use how='differences' to inverse the selection)
+##Overlay both the shapes (Use how='difference' to inverse the selection)
 data_overlay1 = gpd.overlay(modis_fire, shapefile,  how='intersect', keep_geom_type= False)
 
 data_overlay.drop(['geometry'], axis=1).to_excel('C:/Users/HP/Desktop/AOD-PM2.5/Fire_data/analysis/modis_intersect.xlsx')
